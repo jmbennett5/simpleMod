@@ -3,7 +3,7 @@ package net.manevilus.simplemod;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+//comment
 public class simpleMod implements ModInitializer {
 
 	public static final String MOD_ID = "simplemod";
@@ -12,6 +12,6 @@ public class simpleMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
            LOGGER.info("Hello Fabric World!");
-		   
+
 	}
 }
